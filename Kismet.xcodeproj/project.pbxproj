@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC7781371F8C0505007C190B /* iBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7781371F8C0505007C190B /* Kismet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kismet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC77813A1F8C0505007C190B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC77813C1F8C0505007C190B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC77813F1F8C0505007C190B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		AC77812E1F8C0505007C190B = {
 			isa = PBXGroup;
 			children = (
-				AC7781391F8C0505007C190B /* iBet */,
+				AC7781391F8C0505007C190B /* Kismet */,
 				AC7781381F8C0505007C190B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		AC7781381F8C0505007C190B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC7781371F8C0505007C190B /* iBet.app */,
+				AC7781371F8C0505007C190B /* Kismet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC7781391F8C0505007C190B /* iBet */ = {
+		AC7781391F8C0505007C190B /* Kismet */ = {
 			isa = PBXGroup;
 			children = (
 				AC77813A1F8C0505007C190B /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				AC7781431F8C0505007C190B /* LaunchScreen.storyboard */,
 				AC7781461F8C0506007C190B /* Info.plist */,
 			);
-			path = iBet;
+			path = Kismet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC7781361F8C0505007C190B /* iBet */ = {
+		AC7781361F8C0505007C190B /* Kismet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC7781491F8C0506007C190B /* Build configuration list for PBXNativeTarget "iBet" */;
+			buildConfigurationList = AC7781491F8C0506007C190B /* Build configuration list for PBXNativeTarget "Kismet" */;
 			buildPhases = (
 				AC7781331F8C0505007C190B /* Sources */,
 				AC7781341F8C0505007C190B /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = iBet;
+			name = Kismet;
 			productName = iBet;
-			productReference = AC7781371F8C0505007C190B /* iBet.app */;
+			productReference = AC7781371F8C0505007C190B /* Kismet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC7781321F8C0505007C190B /* Build configuration list for PBXProject "iBet" */;
+			buildConfigurationList = AC7781321F8C0505007C190B /* Build configuration list for PBXProject "Kismet" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC7781361F8C0505007C190B /* iBet */,
+				AC7781361F8C0505007C190B /* Kismet */,
 			);
 		};
 /* End PBXProject section */
@@ -276,9 +276,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56FBXZGPN8;
-				INFOPLIST_FILE = iBet/Info.plist;
+				INFOPLIST_FILE = Kismet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.joshsamuels.iBet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshsamuels.Kismet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -291,9 +291,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56FBXZGPN8;
-				INFOPLIST_FILE = iBet/Info.plist;
+				INFOPLIST_FILE = Kismet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.joshsamuels.iBet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshsamuels.Kismet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC7781321F8C0505007C190B /* Build configuration list for PBXProject "iBet" */ = {
+		AC7781321F8C0505007C190B /* Build configuration list for PBXProject "Kismet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC7781471F8C0506007C190B /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC7781491F8C0506007C190B /* Build configuration list for PBXNativeTarget "iBet" */ = {
+		AC7781491F8C0506007C190B /* Build configuration list for PBXNativeTarget "Kismet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC77814A1F8C0506007C190B /* Debug */,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,19 +20,19 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iBet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Kismet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="r2j-JH-sh3">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KcO-3Z-pOt" userLabel="ButtonView">
-                                <rect key="frame" x="0.0" y="384" width="320" height="96"/>
+                                <rect key="frame" x="0.0" y="533.5" width="375" height="133.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEr-pl-6Lr">
-                                        <rect key="frame" x="15" y="8" width="141" height="35"/>
+                                        <rect key="frame" x="15" y="8" width="168.5" height="54"/>
                                         <color key="backgroundColor" red="0.60956863665210148" green="0.16894328214770329" blue="0.095911855400779525" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                         <state key="normal" title="Die">
@@ -48,7 +48,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGW-bt-YHW">
-                                        <rect key="frame" x="164" y="8" width="141" height="35"/>
+                                        <rect key="frame" x="191.5" y="8" width="168.5" height="54"/>
                                         <color key="backgroundColor" red="0.60956863665210148" green="0.16894328214770329" blue="0.095911855400779525" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                         <state key="normal" title="Coin">
@@ -64,7 +64,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9R-Bc-Zvf">
-                                        <rect key="frame" x="15" y="51" width="290" height="35"/>
+                                        <rect key="frame" x="15" y="70" width="345" height="53.5"/>
                                         <color key="backgroundColor" red="0.60956863665210148" green="0.16894328214770329" blue="0.095911855400779525" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                         <state key="normal" title="Random Number">
@@ -99,10 +99,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kFX-iv-YKb" userLabel="TopContainer">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="384"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="533.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Die" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mde-jD-S6h" userLabel="lblDie">
-                                        <rect key="frame" x="133" y="44" width="54.5" height="40.5"/>
+                                        <rect key="frame" x="133" y="44" width="109.5" height="40.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40.5" id="Gd2-MB-JPZ"/>
                                         </constraints>
@@ -111,7 +111,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiB-3Z-Ij2" userLabel="btnGenerate">
-                                        <rect key="frame" x="40" y="259" width="240" height="62"/>
+                                        <rect key="frame" x="40" y="259" width="295" height="62"/>
                                         <color key="backgroundColor" red="0.60956863670000005" green="0.16894328210000001" blue="0.095911855399999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="62" id="H5T-fL-7eb"/>
@@ -130,7 +130,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="{CurVal}" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BO-ia-vgB" userLabel="lblCurVal">
-                                        <rect key="frame" x="87" y="109" width="147" height="120"/>
+                                        <rect key="frame" x="87" y="109" width="202" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="120" id="Mhq-UY-XPT"/>
                                         </constraints>
@@ -139,7 +139,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="del-dv-7Py" userLabel="lblCoin">
-                                        <rect key="frame" x="121" y="44" width="78" height="41"/>
+                                        <rect key="frame" x="121" y="44" width="133" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="Noo-Vb-ZfW"/>
                                         </constraints>
@@ -148,7 +148,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ah3-tu-KZa" userLabel="lblNumber">
-                                        <rect key="frame" x="94" y="44" width="133" height="41"/>
+                                        <rect key="frame" x="94" y="44" width="188" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="TFF-fF-YbW"/>
                                         </constraints>

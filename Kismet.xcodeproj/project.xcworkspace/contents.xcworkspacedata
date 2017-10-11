@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iBet.xcodeproj">
+      location = "self:/Users/joshsamuels/Documents/Projects/iOS/Kismet/Kismet.xcodeproj">
    </FileRef>
 </Workspace>
