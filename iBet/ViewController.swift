@@ -13,14 +13,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblNumber: UILabel!
     @IBOutlet weak var lblDie: UILabel!
     @IBOutlet weak var lblCoin: UILabel!
-    
     @IBOutlet weak var lblCurVal: UILabel!
-    
+    @IBOutlet weak var btnGenerate: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         lblCurVal.text = ""
+        btnGenerate.setTitle("Roll", for: UIControlState.normal)
+        
         lblNumber.isHidden = true
         lblCoin.isHidden = true
         
@@ -51,6 +53,8 @@ class ViewController: UIViewController {
         lblCoin.isHidden = true
         
         lblCurVal.text = ""
+        
+        btnGenerate.setTitle("Roll", for: UIControlState.normal)
     }
     
     @IBAction func ToggleCoin(_ sender: Any) {
@@ -59,6 +63,8 @@ class ViewController: UIViewController {
         lblCoin.isHidden = false
         
         lblCurVal.text = ""
+        
+        btnGenerate.setTitle("Flip", for: UIControlState.normal)
     }
     
     @IBAction func ToggleNumber(_ sender: Any) {
@@ -67,6 +73,8 @@ class ViewController: UIViewController {
         lblCoin.isHidden = true
         
         lblCurVal.text = ""
+        
+        btnGenerate.setTitle("Generate", for: UIControlState.normal)
     }
     
     func GenerateDie() -> Int {

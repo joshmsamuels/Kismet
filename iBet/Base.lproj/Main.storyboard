@@ -108,7 +108,7 @@
                                             <constraint firstAttribute="height" constant="40.5" id="Gd2-MB-JPZ"/>
                                             <constraint firstAttribute="width" constant="54.5" id="Ivb-1D-Nbm"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="35"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -120,7 +120,7 @@
                                             <constraint firstAttribute="height" constant="62" id="H5T-fL-7eb"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="29"/>
-                                        <state key="normal" title="Generate">
+                                        <state key="normal" title="Roll">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -148,7 +148,7 @@
                                             <constraint firstAttribute="height" constant="41" id="Noo-Vb-ZfW"/>
                                             <constraint firstAttribute="width" constant="78" id="rGo-dw-NGf"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="35"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -158,7 +158,7 @@
                                             <constraint firstAttribute="height" constant="41" id="TFF-fF-YbW"/>
                                             <constraint firstAttribute="width" constant="133" id="qwf-EX-p0h"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="35"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -205,6 +205,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="btnGenerate" destination="AiB-3Z-Ij2" id="dsK-T2-9n2"/>
                         <outlet property="lblCoin" destination="del-dv-7Py" id="QSS-wk-SJj"/>
                         <outlet property="lblCurVal" destination="6BO-ia-vgB" id="ZMA-n4-3vy"/>
                         <outlet property="lblDie" destination="Mde-jD-S6h" id="xRW-pG-xGH"/>
