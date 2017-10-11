@@ -82,20 +82,19 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="M9R-Bc-Zvf" secondAttribute="trailing" constant="15" id="2qp-Hu-Bcm"/>
                                     <constraint firstItem="rGW-bt-YHW" firstAttribute="leading" secondItem="SEr-pl-6Lr" secondAttribute="trailing" constant="8" id="Cl9-uR-bfD"/>
                                     <constraint firstItem="rGW-bt-YHW" firstAttribute="width" secondItem="SEr-pl-6Lr" secondAttribute="width" id="Hy8-a5-Ndi"/>
-                                    <constraint firstAttribute="trailing" secondItem="M9R-Bc-Zvf" secondAttribute="trailing" constant="15" id="Iwm-j0-6v5"/>
                                     <constraint firstItem="M9R-Bc-Zvf" firstAttribute="top" secondItem="SEr-pl-6Lr" secondAttribute="bottom" constant="8" id="LMU-Za-TqT"/>
                                     <constraint firstItem="rGW-bt-YHW" firstAttribute="height" secondItem="SEr-pl-6Lr" secondAttribute="height" id="NH3-cZ-pHx"/>
+                                    <constraint firstItem="M9R-Bc-Zvf" firstAttribute="leading" secondItem="KcO-3Z-pOt" secondAttribute="leading" constant="15" id="TBx-HL-KoP"/>
                                     <constraint firstItem="rGW-bt-YHW" firstAttribute="leading" secondItem="SEr-pl-6Lr" secondAttribute="trailing" constant="8" id="Wzb-DE-afx"/>
                                     <constraint firstItem="M9R-Bc-Zvf" firstAttribute="height" secondItem="SEr-pl-6Lr" secondAttribute="height" id="XJx-J7-0Mc"/>
                                     <constraint firstAttribute="bottom" secondItem="M9R-Bc-Zvf" secondAttribute="bottom" constant="10" id="aLP-Wn-7lZ"/>
                                     <constraint firstItem="SEr-pl-6Lr" firstAttribute="top" secondItem="KcO-3Z-pOt" secondAttribute="top" constant="8" id="cUm-rg-lhs"/>
                                     <constraint firstAttribute="trailing" secondItem="rGW-bt-YHW" secondAttribute="trailing" constant="15" id="dbe-om-nHJ"/>
                                     <constraint firstItem="rGW-bt-YHW" firstAttribute="top" secondItem="KcO-3Z-pOt" secondAttribute="top" constant="8" id="esW-f8-RLi"/>
-                                    <constraint firstItem="M9R-Bc-Zvf" firstAttribute="centerX" secondItem="KcO-3Z-pOt" secondAttribute="centerX" id="fM0-R5-q2O"/>
                                     <constraint firstItem="M9R-Bc-Zvf" firstAttribute="top" secondItem="rGW-bt-YHW" secondAttribute="bottom" constant="8" id="l0u-Oh-PHy"/>
-                                    <constraint firstItem="M9R-Bc-Zvf" firstAttribute="leading" secondItem="KcO-3Z-pOt" secondAttribute="leading" constant="15" id="njY-HK-EwK"/>
                                     <constraint firstItem="SEr-pl-6Lr" firstAttribute="leading" secondItem="KcO-3Z-pOt" secondAttribute="leading" constant="15" id="tXu-L7-vTc"/>
                                 </constraints>
                             </view>
@@ -106,7 +105,6 @@
                                         <rect key="frame" x="133" y="44" width="54.5" height="40.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40.5" id="Gd2-MB-JPZ"/>
-                                            <constraint firstAttribute="width" constant="54.5" id="Ivb-1D-Nbm"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -116,7 +114,6 @@
                                         <rect key="frame" x="40" y="259" width="240" height="62"/>
                                         <color key="backgroundColor" red="0.60956863670000005" green="0.16894328210000001" blue="0.095911855399999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="240" id="5em-aD-d4O"/>
                                             <constraint firstAttribute="height" constant="62" id="H5T-fL-7eb"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="29"/>
@@ -136,7 +133,6 @@
                                         <rect key="frame" x="87" y="109" width="147" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="120" id="Mhq-UY-XPT"/>
-                                            <constraint firstAttribute="width" constant="147" id="qQG-mF-mb4"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="40"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -146,7 +142,6 @@
                                         <rect key="frame" x="121" y="44" width="78" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="Noo-Vb-ZfW"/>
-                                            <constraint firstAttribute="width" constant="78" id="rGo-dw-NGf"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -156,7 +151,6 @@
                                         <rect key="frame" x="94" y="44" width="133" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="TFF-fF-YbW"/>
-                                            <constraint firstAttribute="width" constant="133" id="qwf-EX-p0h"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
