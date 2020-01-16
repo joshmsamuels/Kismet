@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         lblCurVal.text = ""
-        btnGenerate.setTitle("Roll", for: UIControlState.normal)
+        btnGenerate.setTitle("Roll", for: UIControl.State.normal)
         
         lblNumber.isHidden = true
         lblCoin.isHidden = true
@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         
         lblCurVal.text = ""
         
-        btnGenerate.setTitle("Roll", for: UIControlState.normal)
+        btnGenerate.setTitle("Roll", for: UIControl.State.normal)
     }
     
     @IBAction func ToggleCoin(_ sender: Any) {
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
         
         lblCurVal.text = ""
         
-        btnGenerate.setTitle("Flip", for: UIControlState.normal)
+        btnGenerate.setTitle("Flip", for: UIControl.State.normal)
     }
     
     @IBAction func ToggleNumber(_ sender: Any) {
@@ -74,7 +74,7 @@ class ViewController: UIViewController {
         
         lblCurVal.text = ""
         
-        btnGenerate.setTitle("Generate", for: UIControlState.normal)
+        btnGenerate.setTitle("Generate", for: UIControl.State.normal)
     }
     
     func GenerateDie() -> Int {
